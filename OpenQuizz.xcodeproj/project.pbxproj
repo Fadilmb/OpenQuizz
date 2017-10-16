@@ -47,6 +47,7 @@
 		B6AE89F01F952053003D04C4 /* OpenQuizzUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenQuizzUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6AE89F41F952053003D04C4 /* OpenQuizzUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenQuizzUITests.swift; sourceTree = "<group>"; };
 		B6AE89F61F952053003D04C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6AE8A081F952461003D04C4 /* Balham.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Balham.otf; path = ../../../../.Trash/Balham.otf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +98,10 @@
 		B6AE89D31F952053003D04C4 /* OpenQuizz */ = {
 			isa = PBXGroup;
 			children = (
-				B6AE89D41F952053003D04C4 /* AppDelegate.swift */,
-				B6AE89D61F952053003D04C4 /* ViewController.swift */,
-				B6AE89D81F952053003D04C4 /* Main.storyboard */,
-				B6AE89DB1F952053003D04C4 /* Assets.xcassets */,
-				B6AE89DD1F952053003D04C4 /* LaunchScreen.storyboard */,
-				B6AE89E01F952053003D04C4 /* Info.plist */,
+				B6AE8A061F952414003D04C4 /* Supporting Files */,
+				B6AE8A051F9523D7003D04C4 /* Controller */,
+				B6AE8A041F9523CA003D04C4 /* View */,
+				B6AE8A031F9523C4003D04C4 /* Model */,
 			);
 			path = OpenQuizz;
 			sourceTree = "<group>";
@@ -123,6 +122,41 @@
 				B6AE89F61F952053003D04C4 /* Info.plist */,
 			);
 			path = OpenQuizzUITests;
+			sourceTree = "<group>";
+		};
+		B6AE8A031F9523C4003D04C4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B6AE8A041F9523CA003D04C4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B6AE89D81F952053003D04C4 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B6AE8A051F9523D7003D04C4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B6AE89D61F952053003D04C4 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B6AE8A061F952414003D04C4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6AE89D41F952053003D04C4 /* AppDelegate.swift */,
+				B6AE89DB1F952053003D04C4 /* Assets.xcassets */,
+				B6AE89DD1F952053003D04C4 /* LaunchScreen.storyboard */,
+				B6AE89E01F952053003D04C4 /* Info.plist */,
+				B6AE8A081F952461003D04C4 /* Balham.otf */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
