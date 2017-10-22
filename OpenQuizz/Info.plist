@@ -44,8 +44,6 @@
 	<key>UIAppFonts</key>
 	<array>
 		<string>Balham.otf</string>
-		<string>Question.swift</string>
-		<string>Game.swift</string>
 	</array>
 </dict>
 </plist>
