@@ -45,6 +45,7 @@
 	<array>
 		<string>Balham.otf</string>
 		<string>Question.swift</string>
+		<string>QuestionManager.swift</string>
 		<string>Game.swift</string>
 	</array>
 </dict>
